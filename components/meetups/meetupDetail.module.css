@@ -1,0 +1,11 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail img{
+    height: 60vh;
+    width: auto;
+}

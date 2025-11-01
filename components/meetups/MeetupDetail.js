@@ -1,10 +1,12 @@
-export default function MeetupDetail(){
+import classes from './meetupDetail.module.css';
+
+export default function MeetupDetail(props){
     return(
-        <>
-        <img src="https://karnatakatourism.org/wp-content/uploads/2020/06/Mysuru-Palace-banner-1920_1100.jpg" alt="meetup img"/>
-         <h1>A First Meetup</h1>
-         <address>sterret 55 cross 1</address>
-         <p>the meetup desc</p>
-        </>
+        <section className={classes.detail}>
+        <img src={props.image} alt={props.title}/>
+         <h1>{props.title}</h1>
+         <address>{props.address}</address>
+         <p>{props.desc}</p>
+        </section>
     )
 }

@@ -23,15 +23,7 @@ NextMeetups is a full-stack meetup application built with **Next.js** and **Mong
 - **Environment Variables**: `.env.local` for secure credentials
 
 ---
-
-## 📦 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Jayanth-shetty/NextMeetups.git
-cd NextMeetups
-/pages
+#/pages
   /[meetupId].js         # Dynamic page for individual meetups  
   /new-meetup.js         # Form page to add a new meetup  
   index.js               # Homepage listing all meetups  
@@ -53,3 +45,22 @@ In getStaticProps, it fetches the data for a specific meetup using its ID.
 The MeetupDetail component displays the title, image, address, and description.
 
 New meetups can be added via a form; data is inserted into MongoDB through an API route.
+## 📦 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Jayanth-shetty/NextMeetups.git
+cd NextMeetups
+npm install
+
+```
+Create a file named .env.local in the project root with the following content:
+
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-url>/<database>?retryWrites=true&w=majority
+MONGODB_DB=<your-database-name>
+
+```bash
+npm run dev
+```
+

@@ -1,5 +1,4 @@
-# NextMeetups
-NextMeetup is a full-stack web application built using Next.js and MongoDB that allows users to browse, create, and view detailed meetups. It demonstrates static site generation (SSG) and server-side rendering (SSR) features of Next.js with seamless MongoDB Atlas database
+
 # NextMeetups
 
 NextMeetups is a full-stack meetup application built with **Next.js** and **MongoDB**, demonstrating Next.js features like static site generation (SSG) and dynamic routing. Users can browse meetups, view detailed meetup pages, and add new meetups.

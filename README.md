@@ -56,9 +56,10 @@ npm install
 
 ```
 Create a file named .env.local in the project root with the following content:
-
+```bash
 MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-url>/<database>?retryWrites=true&w=majority
 MONGODB_DB=<your-database-name>
+```
 
 ```bash
 npm run dev

@@ -31,3 +31,6 @@ Thumbs.db
 
 # Optional: auto-edit script logs or temp data
 scripts/logs/
+
+.next/
+node_modules/
